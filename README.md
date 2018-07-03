@@ -48,5 +48,5 @@ To add a custom directory to your theme-gem, please edit the regexp in `plethora
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Plethora is licensed under the [Parity Public License](https://licensezero.com/licenses/parity), see [`LICENSE.md`](./LICENSE.md).
 
