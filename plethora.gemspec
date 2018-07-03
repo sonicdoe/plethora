@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jakob Krigovsky"]
   spec.email         = ["jakob@krigovsky.com"]
 
-  spec.summary       = "TODO: Write a short summary, because Rubygems requires one."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Jekyll theme for simple blogs"
+  spec.homepage      = "https://github.com/sonicdoe/plethora"
   spec.license       = "Parity Public License"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
