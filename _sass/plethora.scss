@@ -46,9 +46,13 @@ a {
 }
 
 .site-title {
-  color: #fff;
   font-size: 0.9rem;
   font-weight: 500;
+  margin: 0;
+}
+
+.site-link {
+  color: #fff;
 
   &:hover {
     text-decoration: none;

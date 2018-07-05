@@ -1,3 +1,11 @@
 <header class="header">
-  <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
+  {%- if page.layout == 'home' -%}
+    <h1 class="site-title">
+      <a href="{{ "/" | relative_url }}" class="site-link">{{ site.title }}</a>
+    </h1>
+  {%- else -%}
+    <span class="site-title">
+      <a href="{{ "/" | relative_url }}" class="site-link">{{ site.title }}</a>
+    </span>
+  {%- endif -%}
 </header>
