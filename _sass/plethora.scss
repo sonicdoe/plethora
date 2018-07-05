@@ -15,7 +15,9 @@ html {
 body {
   display: grid;
   grid-column-gap: 15px;
-  grid-template-areas: ". main .";
+  grid-template-areas:
+    ". main ."
+    ". footer .";
   grid-template-columns: 1fr minmax(0, 660px) 1fr;
 }
 
@@ -35,4 +37,24 @@ a {
 .post-title {
   font-size: 1rem;
   font-weight: bold;
+}
+
+.footer {
+  font-size: 0.8rem;
+  grid-area: footer;
+  margin-bottom: 1em;
+
+  > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      display: inline;
+
+      + li:before {
+        content: " · ";
+      }
+    }
+  }
 }
