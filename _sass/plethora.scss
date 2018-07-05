@@ -19,6 +19,15 @@ body {
   grid-template-columns: 1fr minmax(0, 660px) 1fr;
 }
 
+a {
+  color: #0062cc;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .post {
   grid-area: main;
 }
