@@ -2,3 +2,6 @@ title: Plethora
 description: Jekyll theme for simple blogs
 author:
   name: Jakob Krigovsky
+
+plugins:
+  - jekyll-feed
