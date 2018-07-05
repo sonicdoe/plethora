@@ -55,11 +55,11 @@ a {
   }
 }
 
-.post {
+.page, .post {
   grid-area: main;
 }
 
-.post-title {
+.page-title, .post-title {
   font-size: 1rem;
   font-weight: bold;
 }
