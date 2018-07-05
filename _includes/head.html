@@ -8,5 +8,9 @@
 
   {%- feed_meta -%}
 
-  <title>{{ page.title }}</title>
+  {%- if page.layout == 'home' -%}
+    <title>{{ site.title }}</title>
+  {%- else -%}
+    <title>{{ page.title }}</title>
+  {%- endif -%}
 </head>
