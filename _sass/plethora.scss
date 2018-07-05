@@ -55,8 +55,20 @@ a {
   }
 }
 
-.page, .post {
+.home, .page, .post {
   grid-area: main;
+}
+
+.home {
+  > .post {
+    + .post {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.post-link {
+  color: inherit;
 }
 
 .page-title, .post-title {

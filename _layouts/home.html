@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<main class="home">
+  {%- for post in site.posts -%}
+    <article class="post">
+      <header class="post-header">
+        <h2 class="post-title">
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+      </header>
+
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+    </article>
+  {%- endfor -%}
+</main>
