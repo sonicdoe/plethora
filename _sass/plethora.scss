@@ -39,8 +39,31 @@ a {
   }
 }
 
+code, pre {
+  background-color: #f9f9f9;
+  border: 1px solid #efefef;
+  border-radius: 0.25rem;
+  font-size: 87.5%;
+}
+
+code {
+  padding: 1px 0.2rem;
+}
+
 img {
   max-width: 100%;
+}
+
+pre {
+  padding: 0.2rem 0.4rem;
+  overflow-x: auto;
+
+  > code {
+    background-color: initial;
+    border: initial;
+    font-size: inherit;
+    padding: initial;
+  }
 }
 
 .header {
