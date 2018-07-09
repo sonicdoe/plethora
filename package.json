@@ -1,4 +1,14 @@
 {
   "name": "plethora",
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "stylelint _sass/**/*"
+  },
+  "devDependencies": {
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  }
 }
